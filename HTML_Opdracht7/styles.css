@@ -64,8 +64,8 @@ a:visited{
 
 @media screen and (min-width: 1024px) {
     body {
-        background-color: rgb(175, 107, 18);
-        color:brown;
+        background-color: rgb(240, 153, 40);
+        color:rgb(48, 21, 145);
         font-size: 14px;
         line-height: 3;
     }
