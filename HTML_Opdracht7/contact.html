@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> Contactpage </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1> Hello everybody! </h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Back to home</a>
+        </nav>
+      
+        <main>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam: <input type="text" name="name" /></label> 
+                </p>
+                <p>
+                    <label>E-mail: <input type="email" name="email" /></label> 
+                </p>
+                <p>
+                    <label>Opmerkingen: <textarea rows="10" cols="20">Noteer hier je opmerkingen</textarea></label> 
+                </p>
+                <p>
+                    <input type="submit" name="submit" />
+                </p>
+            </form>
+        </main>
+        
+        <footer>
+            <hr>
+        </footer>
+    </body>
+</html> 
