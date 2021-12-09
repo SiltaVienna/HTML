@@ -1,0 +1,46 @@
+/* PART 1 */
+.nav-lightblue:hover {
+    font-weight: bold;
+    color: lightblue;
+}
+
+.nav-red:active {
+    color: red;
+    font-style: italic;
+}
+
+.nav-yellow:visited {
+    color:yellow;
+}
+
+.input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+
+
+/* PART 2 */
+
+.nav-menu li {
+    list-style-type: none; 
+    display: inline-block;
+    padding: 10px; 
+    margin-left: 0;
+}
+
+.nav-menu li:hover {
+   background: lightblue;
+}
+
+.nav-menu {
+    background: darkblue;
+}
+
+.searchbar:focus {
+    border: 1px solid red;
+}
+
+.currentpage:active {
+    background: red;
+}
