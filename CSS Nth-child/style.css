@@ -39,6 +39,6 @@ body {
       background: rgb(31, 126, 36);
   }
 
-  .three ul li:nth-child(odd) {
+  .three ul:nth-child(odd) li:nth-child(-n +3) {
       background: rgb(31, 126, 36);
   }
