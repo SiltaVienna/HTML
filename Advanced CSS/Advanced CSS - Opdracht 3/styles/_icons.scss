@@ -1,0 +1,62 @@
+/* ICON COLOR */
+
+.fa {
+    color: #fff;
+}
+
+@mixin textIcon {
+    padding-left: 30px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* ICONS */
+
+.fa-facebook {
+    background: #3b5998;
+    &:after {
+        content: "Like my Facebookpage";
+        @include textIcon();
+    }
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    &:after {
+        content: "Follow my Twitter";
+        @include textIcon();
+    }
+    
+}
+
+.fa-google {
+    background: #dd4b39;
+    &:after {
+        content: "Find me on Google";
+        @include textIcon();
+    }
+}
+
+.fa-linkedin {
+    background: #007bb5;  
+    &:after {
+        content: "Connect on Linkedin";
+        @include textIcon();
+    }  
+}
+
+.fa-youtube {
+    background: #bb0000;
+    &:after {
+        content: "Like my YouTube";
+        @include textIcon();
+    } 
+}
+
+.fa-github{
+    background: #333; 
+    &:after {
+        content: "My projects on Github";
+        @include textIcon();
+    } 
+}
